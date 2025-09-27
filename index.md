@@ -3,23 +3,28 @@
 layout: home
 
 hero:
-  name: "Slipstream SDK Docs"
-  text: "Documentation for the Slipstream SDK"
-  tagline: My great project tagline
+  name: "Slipstream SDK"
+  text: "TypeScript SDK for Slipstream Proxy Server"
+  tagline: Seamless gasless transactions and relayer integration
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: API Reference
+      link: /api/slipstream-sdk
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Gasless Transactions
+    details: Enable users to perform transactions without holding native tokens for gas fees
+  - title: Multi-Chain Support
+    details: Support for Kadena, Base, and Arbitrum networks with easy chain switching
+  - title: TypeScript Ready
+    details: Full TypeScript support with comprehensive type definitions and IntelliSense
+  - title: Simple Integration
+    details: Easy-to-use SDK with minimal setup and intuitive API methods
+  - title: Transaction Monitoring
+    details: Real-time transaction status tracking and confirmation monitoring
+  - title: Fee Estimation
+    details: Accurate fee estimation with USD conversion for better user experience
 ---
-

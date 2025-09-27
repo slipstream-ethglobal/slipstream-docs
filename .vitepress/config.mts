@@ -2,27 +2,41 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Slipstream SDK Docs",
-  description: "Documentation for the Slipstream SDK",
+  title: "Slipstream SDK",
+  description: "TypeScript SDK for Slipstream Proxy Server",
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Getting Started', link: '/getting-started' },
+      { text: 'API Reference', link: '/api/slipstream-sdk' },
+      { text: 'Examples', link: '/examples' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Guide',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'Examples', link: '/examples' }
+        ]
+      },
+      {
+        text: 'API Reference',
+        items: [
+          { text: 'SlipstreamSDK', link: '/api/slipstream-sdk' },
+          { text: 'Types', link: '/api/types' },
+          { text: 'Services', link: '/api/services' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/slipstream-ethglobal/slipstream' }
+    ],
+
+    search: {
+      provider: 'local'
+    }
   }
 })
